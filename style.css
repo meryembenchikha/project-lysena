@@ -1,0 +1,248 @@
+@font-face{
+    font-family: "HaasGrotTextRWeb";
+    src: url(font/NHaasGroteskTXPro-65Md.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    font-family: montserrat;
+}
+.LYSENA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.font{
+    font-family: "HaasGrotTextRWeb";
+}
+p{
+    font-size: 25px;
+    padding-left: 2rem;
+    margin-right: 20px;
+    margin-left: 20px;   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+nav ul{display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    padding-right: 5rem;   
+}
+li{
+    list-style: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.hr{
+    color: #FFFFFF;
+}
+nav ul li a{
+    color: black;
+    font-size: 17px;
+}
+.sec1{
+    padding-top: 2rem;
+    margin-top: 100px;
+    display: inline;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div2{
+    display: flex;
+    height: 40px;
+    width: 100px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-right: -40px;
+}
+.div3{
+    background-color: #DDE7EF;
+    border-radius: 50%;
+    width: 100%;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2{
+    display: flex;
+    justify-content: center;
+}
+.div4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div5{
+    display: flex;
+    height: 40px;
+    width: 100px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-right: -40px;
+}
+.div6{
+    background-color: #DDE7EF;
+    border-radius: 50%;
+    width: 100%;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div7{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.sec3{
+    display: flex;
+    justify-content: space-around;
+}
+.sec4{
+    display: flex;
+    justify-content: space-around;
+}
+.bt{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 7px;
+    width: 20%;
+    border-radius: 18px;
+    color: white;
+    background-color: #1D2132;
+}
+.img{
+    width: 70px;
+    height: 40px;
+    border-radius: 50%;
+}
+.best{
+    margin-left: -15px;
+}
+.img2{
+    margin-right: -10px;
+}
+
+.img4{
+    margin-left: -10px;
+}
+.OUR{
+    margin-right: -15px;
+}
+.img1{
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    padding-bottom: 10px;
+}
+.img5{
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    padding-bottom: 10px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 25px;
+    padding-top: 0.7rem;
+}
+.youtube{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 35px;
+}
+.container{
+    padding: 0.4rem;
+    width: 300px;
+    height: 260px;
+}
+.slide-wrapper{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+    width: 300px;
+    height: 260px;
+}
+.slider{
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0,0%,0%,0.25); 
+    width: 300px;
+    height: 260px;
+}
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+@media only screen and ((min-width: 320px) and (max-width:599px)) {
+    .part1{
+      display: flex;
+    }
+    .sec3{
+        display: inline;
+        text-align: center;
+    }
+    .sec4{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+@media only screen and ((min-width: 600px) and (max-width: 767px)) {
+    .part1{
+        display: flex;
+    }
+    .sec3{
+        display: inline;
+        text-align: center;
+    }
+    .sec4{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    }
